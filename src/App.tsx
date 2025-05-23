@@ -3,11 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
-
-  const test =    ( )=>{return <div>Test</div>}
-
-
-
+  const test = () => {
+    return <div>Test</div>;
+  };
 
   return (
     <div className="App">
@@ -27,6 +25,6 @@ const App = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;

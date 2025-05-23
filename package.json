@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "browserslist": {
     "production": [
@@ -52,7 +53,8 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.2",
     "husky": "^9.1.7",
-    "lint-staged": "^16.0.0"
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
